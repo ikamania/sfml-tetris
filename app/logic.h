@@ -62,7 +62,7 @@ void makeFigure(std::vector<std::vector<std::vector<int>>> &figures, Figure &fig
 
     int random_f = rand() % 7;
 
-    std::vector<std::vector<int>> c_figure = figures[1];
+    std::vector<std::vector<int>> c_figure = figures[random_f];
 
     int random_x = rand() % (10 - c_figure[0].size());
     int random_c = rand() % (colors.size() - 1) + 1;
