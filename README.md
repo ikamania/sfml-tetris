@@ -1,7 +1,7 @@
 ### Run 
 ```bash
-git clone https://github.com/ikamania/tetris-sfml.git
-cd tetris-sfml
+git clone https://github.com/ikamania/sfml-tetris.git
+cd sfml-tetris
 g++ main.cpp -o sfml -lsfml-graphics -lsfml-window -lsfml-system
 ./sfml
 ```
